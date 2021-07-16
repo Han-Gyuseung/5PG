@@ -17,9 +17,9 @@ import sys
 sys.path.insert(0, os.path.abspath('../..'))
 sys.path.insert(0, os.path.abspath('../../util'))
 
-import matplotlib.pyplot #as plt
-import numpy #as np
+import mock
 
+MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot']
 
 # -- Project information -----------------------------------------------------
 
