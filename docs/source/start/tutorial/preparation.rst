@@ -1,0 +1,65 @@
+Preparation
+===========
+
+
+Composition and energy
+----------------------
+
+The grand canonical ensemble requires properties of all possible configurations. However, it is unreasonable because the number of possible configurations increases exponentially as increasing supercell size. 
+
+Instead, 5PG requires the properties of many configurations which is randomly generated at each possible composition.
+
+The properties of a configuration can be calculated by DFT. If DFT data is enough, machine learning can be applied to efficiently calculate properties of a lot of configurations. 
+No matter what programs are used, you can generate a data file consists of many rows and two columns,
+
+::
+
+ 0 -8.675196
+ 0.03125 -8.700504
+ 0.0625 -8.725803
+ 0.0625 -8.726524
+ 0.0625 -8.726524
+ ...
+
+or many rows and three columns.
+
+::
+
+ 0.0 -9.189511 0.713310
+ 0.03125 -9.211485 0.676563
+ 0.0625 -9.234508 0.691304
+ 0.0625 -9.233217 0.660815
+ 0.0625 -9.234138 0.672744
+ ...
+
+Each row indicates a configuration.
+The first and the second column is the composition and energy of a configuration.
+The third column is another property such as bandgap of a configuration.
+
+The composition of a configuration (the first column) should be within 0~1.
+
+The unit of the energy of a configuration (the second column) can be either eV/[mixing atoms] or J/[mixing atoms].
+
+In this document, the name of data file is reffered to as ``CEL.log``, which is the default name of data file to be read in 5PG.
+
+
+Strain energy
+-------------
+
+The grand canonical requires the strain energy induced by local compositional fluctuation.
+In this document, the strain induced by local compositional fluctuation is referred to as `local strain <../strain.html>`__.
+
+5PG approximates the local strain energy to Birch-Murnaghan equation of state using several parameters. 
+We provide the fitting tool ``util/extract_strain.py`` to generate ``BM_constant.dat`` from the OUTCAR of VASP. ``BM_constant.dat`` contains four parameters.
+
+:math:`B_0V_0 \ \ \ B'_0 \ \ \ 1 \ \ \ \frac{V_0(x=1)}{V_0(x=0)}`
+
+Because only the fraction between third and fourth value works in 5PG, :math:`V_0(x=0) \ \ \ V_0(x=1)` is fine instead of :math:`1 \ \ \frac{V_0(x=1)}{V_0(x=0)}`.
+
+.. include:: util.rst
+
+.. note::
+
+ The unit of strain energy must be same to the unit energy in ``CEL.log``.
+
+
