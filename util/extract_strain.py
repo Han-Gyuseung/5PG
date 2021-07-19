@@ -6,6 +6,17 @@ A=sys.argv[1]
 B=sys.argv[2]
 
 def get_info(outcar,subdirname):
+ """
+ A function to read OUTCAR
+ 
+ :param outcar: path to OUTCAR
+ :type  outcar: string
+ :param subdirname: name of directory
+ :type  subdirname: string
+ 
+ :return: data in OUTCAR
+ :rtype: dictionary
+ """
  with open(outcar,'r') as File:
   lines=File.readlines()
   element_kind=[]
@@ -99,6 +110,19 @@ for configDir in configDirList:
 
 # fitting
 def BM_EOS(rV,a,b):
+ """
+ Birch-Murnaghan equation of state
+ 
+ :param rV: V/V0
+ :type  rV: float
+ :param a: B0V0
+ :type  a: float
+ :param b: B'0
+ :type  b: float
+ 
+ :return: strain energy per mixing atom
+ :rtype: float
+ """
  rV23_1 = rV**(-2/3.)-1
  return a*9/16.0 * ((b-4)*rV23_1**3 + 2*rV23_1**2) # per mixing atom
 
