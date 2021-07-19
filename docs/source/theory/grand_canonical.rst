@@ -5,9 +5,9 @@ The grand canonical ensemble treats the system as a collection of microstates.
 
 Unlike the canonical ensemble, the grand canonical ensemble allows the local compositional fluctuation.
 
-For binary system
+For a binary system
 :math:`A_{x}B_{1-x}`
-or pseudobinary system
+or a pseudobinary system
 :math:`A_{x}B_{1-x}C`
 , the grand canonical partition function is calculated as follows:
 
