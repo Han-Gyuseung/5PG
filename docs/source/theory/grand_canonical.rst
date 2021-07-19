@@ -15,7 +15,7 @@ or a pseudobinary system
 
  Z = \sum_{\sigma}\exp\left({ -\frac{\Delta E ^{total} _\sigma - \Delta \mu N_A }{k_B T} }\right)
 
-where
+, where
 
 .. math::
  \Delta \mu = \mu _A - \mu _B
