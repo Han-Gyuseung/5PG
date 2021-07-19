@@ -23,8 +23,8 @@ MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot']
 # -- Project information -----------------------------------------------------
 
 project = '5PG'
-copyright = '2021, Han Gyuseung'
-author = 'Han Gyuseung'
+copyright = '2021, Gyuseung Han'
+author = 'Gyuseung Han'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
