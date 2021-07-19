@@ -12,7 +12,7 @@ def print_it(x,float_list):
 
 def averaging(data,strain_list,T,num,x,kB):
     """
-    Function to calculate and print average property using grand canonical ensemble
+    A function to calculate and print average property using grand canonical ensemble
 
     :param data: obtained by read_data_file in read.py
     :type  data: dictionary
@@ -57,7 +57,7 @@ def averaging(data,strain_list,T,num,x,kB):
 
 def free_energy(data,strain_list,T,num,kB):
     """
-    Function to calculate and print free energy using grand canonical ensemble
+    A function to calculate and print free energy using grand canonical ensemble
 
     :param data: obtained by read_data_file in read.py
     :type  data: dictionary
