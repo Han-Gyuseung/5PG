@@ -16,7 +16,6 @@ def averaging(data,strain_list,T,num,x,kB):
 
     :param data: obtained by read_data_file in read.py
     :type  data: dictionary
-    :param strain_list
     :param strain_list: parameters to fit local strain energy
     :type  strain_list: list
     :param T: temperature [K]
@@ -61,7 +60,6 @@ def free_energy(data,strain_list,T,num,kB):
 
     :param data: obtained by read_data_file in read.py
     :type  data: dictionary
-    :param strain_list
     :param strain_list: parameters to fit local strain energy
     :type  strain_list: list
     :param T: temperature [K]

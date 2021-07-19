@@ -11,7 +11,7 @@ def canonical_ensemble(T,data,kB):
     A function to calculate properties using canonical ensemble
     
     :param T: temperature [K]
-    :type  T: float (>0)
+    :type  T: float >0
     :param data: data obtained by read_data_file in read.py
     :type  data: dictionary (data[composition][energy][i_th_prop][property[i_th_prop]]=degeneracy)
     :param kB: Boltzmann constant in [eV/K] or [J/K]
@@ -171,7 +171,7 @@ class GrandCanonical(object):
         An instance method to set average composition
 
         :param global_x: average composition
-        :type  global_x: float (0~1)
+        :type  global_x: float 0~1
         """
         if global_x<0.0 or global_x>1.0:
             print ("x must be within the range from 0 to 1")

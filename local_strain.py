@@ -3,9 +3,17 @@ def local_strain(strain_parameter,local_x,global_x,N_atom):
     strain_parameter=[B0V0, B0', 1, V0(x=1)/V0(x=0)]
     or
     strain_parameter=[B0V0, B0', V0(x=0), V0(x=1)]
+    :param strain_parameter: fitting parameters
+    :type  strain_parameter: list
+    :param local_x: local composition
+    :type  local_x: float 0~1
+    :param global_x: average composition
+    :type  global_x: float 0~1
+    :param N_atom: the number of mixing atoms
+    :type  N_atom: int
 
-    return local strain energy fitted to Birch-Murnaghan equation of state in [eV/mixing atom] or [J/mixing atom]
-    The unit is determined by strain_parameter.
+    :return: local strain energy calculated from Birch-Murnaghan equation of state [eV/mixing atom] or [J/mixing atom]
+    :rypte: float
     '''
     strain=[float(strain_parameter[0]),float(strain_parameter[1])]
     volume=[float(strain_parameter[2]),float(strain_parameter[3])] # [V(x=0),V(x=1)]
