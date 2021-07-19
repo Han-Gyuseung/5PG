@@ -8,7 +8,7 @@ from local_strain import local_strain
 # Calculate canonical average energy and entropy 
 def canonical_ensemble(T,data,kB):
     """
-    Function to calculate properties using canonical ensemble
+    A function to calculate properties using canonical ensemble
     
     :param T: temperature [K]
     :type  T: float (>0)
@@ -60,7 +60,7 @@ def canonical_ensemble(T,data,kB):
 
 class GrandCanonical(object):
     """
-    Class to obtain average properties using grand canonical ensemble
+    A class to obtain average properties using grand canonical ensemble
 
     :param T: temperature [K]
     :type  T: float
@@ -168,7 +168,7 @@ class GrandCanonical(object):
 
     def set_x(self, global_x):
         """
-        Instance method to set average composition
+        An instance method to set average composition
 
         :param global_x: average composition
         :type  global_x: float (0~1)
