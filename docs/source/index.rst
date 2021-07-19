@@ -8,7 +8,8 @@ Welcome to 5PG's documentation!
 
 **5PG** is **P**\ ython **P**\ ackage for **P**\ roperty **P**\ rediction of **P**\ seudobinary systems using **G**\ rand canonical ensemble
 
-This program calculates *thermodynamics properties* such as average energy(:math:`\Delta E`), free energy(:math:`\Delta F`), and phase diagram and an *average property* such as bandgap.
+This program calculates *thermodynamics properties* such as average energy (*ΔE*), free energy (*ΔF*), and phase diagram and an *average property* such as bandgap.
+
 
 --------------
 
