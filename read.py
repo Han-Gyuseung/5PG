@@ -7,7 +7,7 @@ from sys import exit
 
 def read_data_file(filename):
     """
-    Function to read the file containing properties of microstates (configurations)
+    A function to read the file containing properties of microstates (configurations)
     
     :param filename: name of target file
     :type  filename: string
@@ -78,7 +78,7 @@ def read_data_file(filename):
 
 def read_strain_file(filename):
     """
-    Function to read the file containing parameters to fit local strain
+    A function to read the file containing parameters to fit local strain
     
     :param filename: name of target file
     :type  filename: string
