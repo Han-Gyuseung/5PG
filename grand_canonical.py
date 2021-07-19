@@ -86,9 +86,6 @@ class GrandCanonical(object):
 
     @property
     def T(self):
-        """
-        temperature
-        """
         return self._T
 
 
