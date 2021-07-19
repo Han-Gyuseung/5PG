@@ -6,7 +6,7 @@ import sys
 # Last way to calculate binodal, spinodal points
 def points(grand,num=100,tol=1E-10,plot=0): #num:x interval become 1/num
     """
-    Function to calculate binodal and spinodal points
+    A function to calculate binodal and spinodal points
 
     :param grand: instance of class GrandCanonical
     :type  grand: instance of class GrandCanonical
@@ -241,7 +241,7 @@ def align_data_to_plot_point(binodal,spinodal,Tmin,Tmax):
 
 def draw_phase_diagram(data,strain_list,num,dT,T0,dT_tol,maximum_T,kB):
     """
-    Function to calculate and draw phase diagram
+    A function to calculate and draw phase diagram
     
     :param data: data obtained by read_data_file in read.py
     :type  data: dictionary (data[composition][energy][i_th_prop][property[i_th_prop]]=degeneracy)
