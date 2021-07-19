@@ -5,14 +5,10 @@ Introduction
 Overview
 ---------
 
-**5PG** allows the efficient property calculation using the grand canonical ensemble.
+**5PG** (**P**\ ython **P**\ ackage for **P**\ roperty **P**\ rediction of **P**\ seudobinary systems using **G**\ rand canonical ensemble) predicts *thermodynamics properties* (such as average energy (*E*), free energy (*F*), and phase diagram) and ensemble-average properties (such as bandgap and dielectric constant) for pseudobinary systems using grand canonical ensemble.
 
-The requirements for the program are the sufficient data for the properties of configurations and the parameters to calculate local strain. 
-It doesn't matter wheter the data was obtained by density functional theory, cluster expansion, or something else.
+The requirements (*input data*) for the program are the sufficient data of the energies and properties of interest for various compositions and configurations in a of pseudobinary system. For better accuracy, the grand canonical ensemble is implemented which allows the compositional fluctuation to simulate more realistic situations. Therefore, parameters for calculating the local strain are required as input in order to be treated as a grand canonical ensemble. The input data can obtained from the density functional theory calculations, cluster expansion method or empirical data. 
 
-The aim here is to calculate a *thermodynamics properties* such as average energy, free energy, and phase diagram and an *ensemble average* of a property such as bandgap for a binary (pseudobinary) system.
-
-For better accuracy, the grand canonical ensemble is implemented which allows compositional fluctuation, allowing for more realistic simulations. 
 
 
 Limitation

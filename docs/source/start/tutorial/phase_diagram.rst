@@ -2,7 +2,7 @@ Phase diagram
 =============
 
 
-5PG can calculate the phase diagram of a system.
+5PG can calculate the phase diagram of a pseudobinary system.
 
 The basic command for calculate phase diagram ::
 

@@ -5,7 +5,8 @@ Preparation
 Composition and energy
 ----------------------
 
-The grand canonical ensemble requires properties of all possible configurations. However, it is unreasonable because the number of possible configurations increases exponentially as increasing supercell size. 
+The grand canonical takes into account the local compositional fluctuation and enables to predict the average value of the “property of interest” (PoI) for any composition and temperature. However, it requires the energy and PoI for all possible composition and configurations, which is impractical.
+
 
 Instead, 5PG requires the properties of many configurations which is randomly generated at each possible composition.
 

@@ -3,12 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to 5PG's documentation!
+Welcome to *5PG* (Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble)!
 =========================================
 
-**5PG** is **P**\ ython **P**\ ackage for **P**\ roperty **P**\ rediction of **P**\ seudobinary systems using **G**\ rand canonical ensemble
-
-This program calculates *thermodynamics properties* such as average energy (*ΔE*), free energy (*ΔF*), and phase diagram and an *average property* such as bandgap.
+**5PG** (**P**\ ython **P**\ ackage for **P**\ roperty **P**\ rediction of **P**\ seudobinary systems using **G**\ rand canonical ensemble) predicts *thermodynamics properties* (such as average energy (*E*), free energy (*F*), and phase diagram) and ensemble-average properties (such as bandgap and dielectric constant) for pseudobinary systems using grand canonical ensemble.
 
 
 --------------
