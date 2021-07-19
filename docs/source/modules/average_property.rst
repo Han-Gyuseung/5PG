@@ -2,7 +2,7 @@ average_property
 ================
 
 .. automodule:: average_property
-    :members: print_it
+    :members:
     :private-members:
     :special-members:
 
