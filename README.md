@@ -12,7 +12,7 @@ If you have used ***5PG*** to obtain **average property**, please cite the follo
 
 
 <br>
-You can see manual at https://grandproperty.readthedocs.io/en/stable/
+You can see manual at https://5pg.readthedocs.io/en/latest/index.html
 
 <br>
 
