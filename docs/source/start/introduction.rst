@@ -11,9 +11,10 @@ The requirements (*input data*) for the program are the sufficient data of the e
 
 
 
-Limitation
-----------
+Limitation & Current status
+---------------------------
 
-* The program simulates only thermodynamic equilibrium state
-* Current version only works for binary systems and pseudobinary systems
+* **5PG** simulates only thermodynamic equilibrium state.
+* Current version of **5PG** works only for binary systems and pseudobinary systems.
+* Current version of 5PG supports the parsers only for `VASP <https://www.vasp.at/>`_.
 
