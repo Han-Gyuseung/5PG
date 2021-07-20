@@ -5,7 +5,9 @@ When the lattice constant depends on the local composition, lattice of microstat
 By local compositional fluctucation, microstates with various local composition coexist.
 In this document, the strain induced by local compositional fluctuation is referred to as **local strain**.
 
-In 5PG, the local strain energy is fitted to Birch-Murnaghan equation of state.
+.. include:: strain_code.rst
+
+In **5PG**, the local strain energy is fitted to Birch-Murnaghan equation of state.
 [Ref]_
 
 Brich-Murnahan equation of state is 
