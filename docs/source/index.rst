@@ -8,6 +8,7 @@ Welcome to *5PG* (Python Package for Property Prediction of Pseudobinary systems
 
 **5PG** (**P**\ ython **P**\ ackage for **P**\ roperty **P**\ rediction of **P**\ seudobinary systems using **G**\ rand canonical ensemble) predicts *thermodynamics properties* (such as average energy (*E*), free energy (*F*), and phase diagram) and ensemble-average properties (such as bandgap and dielectric constant) for pseudobinary systems using grand canonical ensemble.
 
+.. image:: _static/abstract.png
 
 --------------
 
