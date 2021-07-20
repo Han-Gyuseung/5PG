@@ -1,7 +1,7 @@
 util/extract_strain
 ~~~~~~~~~~~~~~~~~~~
 
-5PG can calculate the ensemble average of a system.
+**5PG** can calculate the ensemble average of a pseudobinary system.
 
 The basic command for extract parameters for local strain ::
 
