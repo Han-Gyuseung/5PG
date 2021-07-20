@@ -1,9 +1,11 @@
 util/extract_strain
 ~~~~~~~~~~~~~~~~~~~
 
-5PG can calculate the ensemble average of a system.
+**5PG** provides ``util/extract_strain.py``, which is a code for extracting parameters for local strain from the ``OUTCAR`` of **VASP**.
 
-The basic command for extract parameters for local strain ::
+The basic command to extract parameters for local strain from the OUTCAR of **VASP**.
+
+::
 
  $ python /dir/to/5PG/util/extract_strain.py atomA atomB
 

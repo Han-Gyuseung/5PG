@@ -8,10 +8,14 @@ Composition and energy
 The grand canonical takes into account the local compositional fluctuation and enables to predict the average value of the “property of interest” (PoI) for any composition and temperature. However, it requires the energy and PoI for all possible composition and configurations, which is impractical.
 
 
-Instead, 5PG requires the properties of many configurations which is randomly generated at each possible composition.
+Instead, **5PG** requires the PoI of many (not all, but feasibly large number of) configurations, which are randomly generated at each possible composition.
 
-The properties of a configuration can be calculated by DFT. If DFT data is enough, machine learning can be applied to efficiently calculate properties of a lot of configurations. 
-No matter what programs are used, you can generate a data file consists of many rows and two columns,
+The PoI of many configuration can be calculated by diverse ways such as
+
+1. all by DFT calculations
+2. by machine learning based on some DFT data, etc.
+
+No matter what programs are used, the input data of 5PG consists of tmany rows and two columns,
 
 ::
 
@@ -41,7 +45,7 @@ The composition of a configuration (the first column) should be within 0~1.
 
 The unit of the energy of a configuration (the second column) can be either eV/[mixing atoms] or J/[mixing atoms].
 
-In this document, the name of data file is reffered to as ``CEL.log``, which is the default name of data file to be read in 5PG.
+In this document, the name of input file is referred to as ``CEL.log``, which is the default name of input file to be read in **5PG**.
 
 
 Strain energy
