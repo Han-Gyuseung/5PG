@@ -68,5 +68,9 @@ Because only the fraction between third and fourth value works in 5PG, :math:`V_
 .. note::
 
  The unit of strain energy must be same to the unit of energy in ``CEL.log``, either eV/[mixing atoms] or J/[mixing atoms].
+ 
+ [mixing atoms] indicates the number of atoms in microstates. 
+ For an pseudobinary system of GaAs\ :sub`x`\ Sb\ :sub`1-x`\ as an example, a 2x2x2 zincblende supercell is composed of 32 cations and 32 anions.
+ In this case, the number of mixing atoms is 32.
 
 
