@@ -3,6 +3,8 @@
 
 ***Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble***
 
+[manual](https://5pg.readthedocs.io/en/latest/index.html)
+
 **A python tool to calculate the average property using the grand canonical ensemble.** <br>
 If you have used ***5PG*** to obtain **phase diagram**, please cite the following article (https://doi.org/10.1088/1361-6463/abbf78): <br>
 > Gyuseung Han, In Won Yeu, Jaehong Park, Kun Hee Ye, Seung-Cheol Lee, Cheol Seong Hwang, and Jung-Hae Choi, "Effect of local strain energy to predict accurate phase diagram of III-V pseudobinary systems: case of Ga(As,Sb) and (In,Ga)As," J. Phys. D: Appl. Phys. 54, 045104 (2021)
