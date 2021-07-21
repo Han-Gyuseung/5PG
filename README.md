@@ -3,7 +3,7 @@
 
 ***Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble***
 
-[manual](https://5pg.readthedocs.io/en/latest/index.html)
+[[manual]](https://5pg.readthedocs.io/en/latest/index.html)
 
 **A python tool to calculate the average property using the grand canonical ensemble.** <br>
 If you have used ***5PG*** to obtain **phase diagram**, please cite the following article (https://doi.org/10.1088/1361-6463/abbf78): <br>
