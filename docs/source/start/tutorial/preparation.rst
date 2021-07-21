@@ -15,7 +15,7 @@ The PoI of many configuration can be calculated by diverse ways such as
 1. all by DFT calculations
 2. by machine learning based on some DFT data, etc.
 
-No matter what programs are used, the input data of 5PG consists of tmany rows and two columns,
+No matter what programs are used, the input data of 5PG consists of many rows and two columns,
 
 ::
 
@@ -39,7 +39,7 @@ or many rows and three columns.
 
 Each row indicates a configuration.
 The first and the second column is the composition and energy of a configuration.
-The third column is another property such as bandgap of a configuration.
+The third column is PoI like bandgap of a configuration.
 
 The composition of a configuration (the first column) should be within 0~1.
 
