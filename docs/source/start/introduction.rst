@@ -18,5 +18,5 @@ Limitation & Current status
 
 * **5PG** simulates only thermodynamic equilibrium state.
 * Current version of **5PG** works only for binary systems and pseudobinary systems.
-* Current version of **5PG** supports the parsers only for `VASP <https://www.vasp.at/>`_.
+* Current version of **5PG** supports the parsers that extracts parameters of strain energy only for results caculated using `VASP <https://www.vasp.at/>`_.
 
