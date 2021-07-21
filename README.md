@@ -3,7 +3,7 @@
 
 ***Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble***
 
-[[manual]](https://5pg.readthedocs.io/en/latest/index.html)
+[[manual]](https://5pg.readthedocs.io/en/latest/index.html) : https://5pg.readthedocs.io/en/latest/index.html
 
 **A python tool to calculate the average property using the grand canonical ensemble.** <br>
 If you have used ***5PG*** to obtain **phase diagram**, please cite the following article (https://doi.org/10.1088/1361-6463/abbf78): <br>
@@ -11,10 +11,6 @@ If you have used ***5PG*** to obtain **phase diagram**, please cite the followin
 
 If you have used ***5PG*** to obtain **average property**, please cite the following article (--): <br>
 > Gyuseung Han, In Won Yeu, Kun Hee Ye, Cheol Seong Hwang, and Jung-Hae Choi, "Atomistic prediction on the composition- and configuration- dependent bandgap of Ga(As,Sb) using cluster expansion and ab initio thermodynamics," submitted.
-
-
-<br>
-You can see manual at https://5pg.readthedocs.io/en/latest/index.html
 
 <br>
 
