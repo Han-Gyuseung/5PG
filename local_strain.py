@@ -3,6 +3,7 @@ def local_strain(strain_parameter,local_x,global_x,N_atom):
     strain_parameter=[B0V0, B0', 1, V0(x=1)/V0(x=0)]
     or
     strain_parameter=[B0V0, B0', V0(x=0), V0(x=1)]
+    
     :param strain_parameter: fitting parameters
     :type  strain_parameter: list
     :param local_x: local composition
