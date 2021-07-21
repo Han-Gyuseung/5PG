@@ -15,7 +15,7 @@ The PoI of many configuration can be calculated by diverse ways such as
 1. all by DFT calculations
 2. by machine learning based on some DFT data, etc.
 
-No matter what programs are used, the input data of 5PG consists of tmany rows and two columns,
+No matter what programs are used, the input data of 5PG consists of many rows and two columns,
 
 ::
 
