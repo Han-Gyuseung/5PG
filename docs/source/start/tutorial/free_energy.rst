@@ -3,7 +3,7 @@ Free energy
 
 5PG can calculate the free energy of a system at a given temperature.
 
-The basic Command for calculate free energy ::
+The basic command to calculate free energy is ::
 
  $ python /dir/to/5PG/__main__.py CEL.log -calc f
 
@@ -11,9 +11,9 @@ or ::
 
  $ python /dir/to/5PG CEL.log -calc f
 
-If the name of data file is `CEL.log`, it is not essential to write `CEL.log`
+If the name of input file is `CEL.log`, it is not essential to write `CEL.log`
 
-We provide example files for testing a command at `here <https://github.com/Han-Gyuseung/5PG/tree/main/example/thermodynamic>`_.
+We provide example files for testing a command `here <https://github.com/Han-Gyuseung/5PG/tree/main/example/thermodynamic>`_.
  
 -------------------
 
@@ -50,7 +50,7 @@ options
 | -strain `[fileName]`
 | default : BM_constant.dat
 
-| The option to select the data file for strain energy.
+| The option to select the input file for strain energy.
 
 ::
 
@@ -63,7 +63,7 @@ options
 | -unit `eV` | `J`
 | default : `eV`
 
-| The option to select energy unit of data file and strain energy.
+| The option to select energy unit of input file and strain energy.
 
 ::
 
