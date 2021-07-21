@@ -67,6 +67,6 @@ Because only the fraction between third and fourth value works in 5PG, :math:`V_
 
 .. note::
 
- The unit of strain energy must be same to the unit energy in ``CEL.log``.
+ The unit of strain energy must be same to the unit of energy in ``CEL.log``, either eV/[mixing atoms] or J/[mixing atoms].
 
 
