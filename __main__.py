@@ -112,7 +112,7 @@ else:
 
 #assert read.is_file(file_name), 'No such file: '+file_name
 print ("\nRead %s" %file_name)
-data=read.read_data_file(file_name)
+data=read.read_input_file(file_name)
 
 #assert read.is_file(strain_name), 'No such file: '+strain_name
 print ("Read %s\n" %strain_name)
