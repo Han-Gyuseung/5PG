@@ -1,6 +1,5 @@
 import read
-from phase_diagram import draw_phase_diagram
-from average_property import averaging,free_energy
+from analysis import averaging, free_energy, draw_phase_diagram
 import sys
 
 Tmin	= 300
