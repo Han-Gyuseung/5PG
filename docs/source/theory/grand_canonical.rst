@@ -15,7 +15,7 @@ or a pseudobinary system
 
  Z = \sum_{\sigma}\exp\left({ -\frac{\Delta E ^{total} _\sigma - \Delta \mu N_A }{k_B T} }\right)
 
-, where :math:`N_A` and :math:`N_B` are the number of atom A and atom B in :math:`A_{x}B_{1-x}C`, and
+, where :math:`N_A` is the number of atom A in :math:`A_{x}B_{1-x}C`, and
 
 .. math::
  \Delta \mu = \mu _A - \mu _B
