@@ -39,7 +39,7 @@ or many rows and three columns.
 
 Each row indicates a configuration.
 The first and the second column is the composition and energy of a configuration.
-The third column is another property such as bandgap of a configuration.
+The third column is PoI like bandgap of a configuration.
 
 The composition of a configuration (the first column) should be within 0~1.
 
