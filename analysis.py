@@ -28,7 +28,7 @@ def averaging(data,strain_list,T,num,x,kB):
     :type  kB: float
     """
 #    xs=[]
-#    asdf=[[]]
+#    ys=[[]]
 
     a=GrandCanonical(T,data,strain_list,kB)
     num_prop=len(a.average)
@@ -47,7 +47,7 @@ def averaging(data,strain_list,T,num,x,kB):
 #            for j in range(num_prop):
 #                asdf[j].append(a.average[j])
 #        for i in range(len(asdf)):
-#            plt.plot(xs,asdf[i])
+#            plt.plot(xs,ys[i])
 #        plt.show()
 
     else:
@@ -76,9 +76,8 @@ def free_energy(data,strain_list,T,num,kB):
         print("%0.5f %10.6f" %(x, a.F))
         
         
-        
 
-# Last way to calculate binodal, spinodal points
+# calculate binodal, spinodal points
 def points(grand,num=100,tol=1E-10,plot=0): #num:x interval become 1/num
     """
     A function to calculate binodal and spinodal points
@@ -92,7 +91,6 @@ def points(grand,num=100,tol=1E-10,plot=0): #num:x interval become 1/num
     """
     x=np.linspace(0,1,num+1)
     y=np.zeros(num+1)
-    #Y=np.zeros(num+1)
     
     for i in range(num+1):
         grand.set_x(x[i])
@@ -160,7 +158,6 @@ def points(grand,num=100,tol=1E-10,plot=0): #num:x interval become 1/num
         plt.plot(x,y)
         #plt.plot(x,Y)
         plt.show()
-    #print ("It is done in", COUNT,"iteration")
 
     binodal_set=[]
     spinodal_set=[]
