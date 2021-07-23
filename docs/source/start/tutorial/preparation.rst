@@ -61,7 +61,7 @@ We provide the fitting tool ``util/extract_strain.py`` to generate ``BM_constant
 
 , where :math:`V_0` and :math:`V` are free relaxed volume and strained volume, :math:`B_0` and :math:`B'_0` are bulk modulus and its derivative.
 
-Because only the fraction between third and fourth value works in 5PG, :math:`V_0(x=0) \ \ \ V_0(x=1)` is fine instead of :math:`1 \ \ \frac{V_0(x=1)}{V_0(x=0)}`.
+The first and second values are V_0 B_0 and B_0^', respectively. Fourth value over third value should be the :math:`V_0(x=1)` divided by :math:`V_0(x=0)`, which limits V/V0 to be calculated.
 
 .. include:: util.rst
 
