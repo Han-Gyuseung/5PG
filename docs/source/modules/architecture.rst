@@ -13,3 +13,4 @@ Architecture
     analysis
     grand_canonical
     local_strain
+    util
