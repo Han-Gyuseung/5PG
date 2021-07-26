@@ -17,6 +17,7 @@ Limitation & Current status
 ---------------------------
 
 * **5PG** simulates only thermodynamic equilibrium state.
+* **5PG** assumes that local strain energy is configuration-independent property.
 * Current version of **5PG** works only for binary systems and pseudobinary systems.
 * Current version of **5PG** supports the parsers that extracts parameters for strain energy only from ``OUTCAR`` of `VASP <https://www.vasp.at/>`_.
 
