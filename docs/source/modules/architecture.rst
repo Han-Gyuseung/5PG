@@ -10,8 +10,6 @@ Architecture
     :caption: Modules
 
     read
-    phase_diagram
-    average_property
+    analysis
     grand_canonical
     local_strain
-    extract_strain

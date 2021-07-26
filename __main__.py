@@ -1,5 +1,5 @@
 import read
-from analysis import averaging, free_energy, draw_phase_diagram
+#from analysis import averaging, free_energy, draw_phase_diagram
 import sys
 
 Tmin	= 300
@@ -117,11 +117,17 @@ data=read.read_input_file(file_name)
 #assert read.is_file(strain_name), 'No such file: '+strain_name
 print ("Read %s\n" %strain_name)
 
-if calc=='p':
- draw_phase_diagram(data,read.read_strain_file(strain_name),points,dT,Tmin,dTmin,Tmax,kB)
-elif calc=='a':
- averaging(data,read.read_strain_file(strain_name),T,points,x,kB)
-elif calc=='f':
- free_energy(data,read.read_strain_file(strain_name),T,points,kB)
+
+read.select_calculation(calc, data, read.read_strain_file(strain_name), Tmin, Tmax, dT, dTmin, points, T, x, kB)
+
+
+
+
+#if calc=='p':
+# draw_phase_diagram(data,read.read_strain_file(strain_name),points,dT,Tmin,dTmin,Tmax,kB)
+#elif calc=='a':
+# averaging(data,read.read_strain_file(strain_name),T,points,x,kB)
+#elif calc=='f':
+# free_energy(data,read.read_strain_file(strain_name),T,points,kB)
 
 #draw_phase_diagram(data,num=100,T0=300,dT=100) 

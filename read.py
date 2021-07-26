@@ -1,8 +1,19 @@
 from sys import exit
-#import os
+from analysis import averaging, free_energy, draw_phase_diagram
 
-#def is_file(filename):
-#    return os.path.isfile(filename)
+
+def select_calculation(calc, data, strain_file, Tmin, Tmax, dT, dTmin, points, T, x, kB):
+    if calc=='p':
+        draw_phase_diagram(data, strain_file, points, dT, Tmin, dTmin, Tmax, kB)
+    elif calc=='a':
+        averaging(data, strain_file, T, points, x, kB)
+    elif calc=='f':
+        free_energy(data, strain_file, T, points, kB)
+
+
+
+
+
 
 
 def read_input_file(filename):
