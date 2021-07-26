@@ -3,7 +3,7 @@ util/extract_strain
 
 **5PG** provides ``util/extract_strain.py``, which is a code for extracting parameters for local strain from the ``OUTCAR`` of **VASP**.
 
-The basic command to extract parameters for local strain from the OUTCAR of **VASP**.
+The basic command to extract the parameters for local strain from the OUTCAR of **VASP**.
 
 ::
 

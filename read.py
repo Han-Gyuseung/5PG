@@ -5,7 +5,7 @@ from sys import exit
 #    return os.path.isfile(filename)
 
 
-def read_data_file(filename):
+def read_input_file(filename):
     """
     A function to read the file containing properties of microstates (configurations)
     
