@@ -304,6 +304,9 @@ def align_data_to_plot_point(binodal,spinodal,Tmin,Tmax):
      plt.plot(sx[i],sT[i],'bx')
     for i in range(len(bx)):
      plt.plot(bx[i],bT[i],'ro')
+    plt.plot([],[],'bx', label='binodal')
+    plt.plot([],[],'ro', label='spinodal')
+    plt.legend()
 
     plt.show()
 
