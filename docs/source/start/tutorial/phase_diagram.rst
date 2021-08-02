@@ -34,7 +34,7 @@ The phase diagram and log obtain from the example files is as follows:
  Final temperature :   1037.500 K
  
  
-.. include:: ../../_static/phase_diagram.png
+.. image:: ../../_static/phase_diagram.png
 
  
 -------------------
