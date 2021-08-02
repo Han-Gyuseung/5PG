@@ -15,6 +15,26 @@ or ::
 Because default of ``-calc`` is `p`, `-calc p` is not essential.
 
 We provide example files for testing a command `here <https://github.com/Han-Gyuseung/5PG/tree/main/example/thermodynamic>`_.
+The phase diagram and log obtain from the example files is as follows:
+
+::
+
+ Datafile: CEL.log
+ -strain : BM_constant.dat
+ -unit   : eV
+ -calc   : phase_diagram
+ -Tmax   : 10000.0 K
+ -Tmin   : 300.0 K
+ -dT     : 100.0 K
+ -dTmin  :  10.0 K
+ 
+ Read CEL.log
+ Read BM_constant.dat
+ 
+ Final temperature :   1037.500 K
+ 
+ 
+.. include:: ../../_static/phase_diagram.png
 
  
 -------------------
