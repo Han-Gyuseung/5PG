@@ -1,4 +1,4 @@
-util
+tool
 ================
 
 .. automodule:: extract_strain

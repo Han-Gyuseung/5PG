@@ -55,7 +55,7 @@ The grand canonical requires the strain energy induced by local compositional fl
 In this document, the strain induced by local compositional fluctuation is referred to as `local strain <../strain.html>`__.
 
 5PG approximates the local strain energy to Birch-Murnaghan equation of state using several parameters. 
-We provide the fitting tool ``util/extract_strain.py`` to generate ``BM_constant.dat`` from the OUTCAR of VASP. ``BM_constant.dat`` contains four parameters.
+We provide the fitting tool ``tool/extract_strain.py`` to generate ``BM_constant.dat`` from the OUTCAR of VASP. ``BM_constant.dat`` contains four parameters.
 
 :math:`B_0V_0 \ \ \ B'_0 \ \ \ 1 \ \ \ \frac{V_0(x=1)}{V_0(x=0)}`
 
@@ -63,7 +63,7 @@ We provide the fitting tool ``util/extract_strain.py`` to generate ``BM_constant
 
 The first and second values are V_0 B_0 and B_0^', respectively. Fourth value over third value should be the :math:`V_0(x=1)` divided by :math:`V_0(x=0)`, which limits V/V0 to be calculated.
 
-.. include:: util.rst
+.. include:: tool.rst
 
 .. note::
 

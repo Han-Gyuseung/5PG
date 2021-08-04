@@ -15,7 +15,7 @@ import sys
 
 #sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../..'))
-sys.path.insert(0, os.path.abspath('../../util'))
+sys.path.insert(0, os.path.abspath('../../tool'))
 
 import mock
 MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot', 'scipy.optimize']
