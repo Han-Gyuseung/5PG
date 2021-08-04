@@ -61,7 +61,7 @@ We provide the fitting tool ``tool/extract_strain.py`` to generate ``BM_constant
 
 , where :math:`V_0` and :math:`V` are free relaxed volume and strained volume, :math:`B_0` and :math:`B'_0` are bulk modulus and its derivative.
 
-The first and second values are V_0 B_0 and B_0^', respectively. Fourth value over third value should be the :math:`V_0(x=1)` divided by :math:`V_0(x=0)`, which limits V/V0 to be calculated.
+The first and second values are V\ :sub:`0`\  B\ :sub:`0`\  and B\ :sub:`0`\ ', respectively. Fourth value over third value should be the :math:`V_0(x=1)` divided by :math:`V_0(x=0)`, which limits V/V0 to be calculated.
 
 .. include:: tool.rst
 
