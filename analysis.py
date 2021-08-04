@@ -34,7 +34,8 @@ def averaging(data,strain_list,T,num,x,kB):
     num_prop=len(a.average)
     label="   x       energy "
     for i in range(1,num_prop):
-        label+="%10s" %"property"+str(i)+" "
+#        label+="%9s " %" PoI"+str(i)+"     "
+        label+="%9s " %" PoI"
 #        asdf.append([])
     print (label)
 
@@ -70,6 +71,7 @@ def free_energy(data,strain_list,T,num,kB):
     :type  kB: float
     """
     a=GrandCanonical(T,data,strain_list,kB)
+    print("   x     free energy")
     for i in range(num+1):
         x=i/(num+0.0)
         a.set_x(x)
@@ -304,6 +306,9 @@ def align_data_to_plot_point(binodal,spinodal,Tmin,Tmax):
      plt.plot(sx[i],sT[i],'bx')
     for i in range(len(bx)):
      plt.plot(bx[i],bT[i],'ro')
+    plt.plot([],[],'bx', label='binodal')
+    plt.plot([],[],'ro', label='spinodal')
+    plt.legend()
 
     plt.show()
 

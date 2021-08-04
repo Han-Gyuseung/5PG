@@ -14,6 +14,53 @@ or ::
 If the name of input file is `CEL.log`, it is not essential to write `CEL.log`
 
 We provide example files for testing a command `here <https://github.com/Han-Gyuseung/5PG/tree/main/example/thermodynamic>`_.
+The log messages obtained from the example files is as follows:
+
+::
+
+ DataFile: CEL.log
+ -strain : BM_constant.dat
+ -unit   : eV
+ -calc   : free_energy
+ -T      :   300.0 K
+ -points :    32
+  
+ Read CEL.log
+ Read BM_constant.dat
+ 
+ 0.00000   0.000000
+ 0.03125   0.001674
+ 0.06250   0.004003
+ 0.09375   0.006320
+ 0.12500   0.008493
+ 0.15625   0.010476
+ 0.18750   0.012277
+ 0.21875   0.013920
+ 0.25000   0.015386
+ 0.28125   0.016765
+ 0.31250   0.018161
+ 0.34375   0.019448
+ 0.37500   0.020529
+ 0.40625   0.021405
+ 0.43750   0.022186
+ 0.46875   0.022806
+ 0.50000   0.023155
+ 0.53125   0.023316
+ 0.56250   0.023382
+ 0.59375   0.023344
+ 0.62500   0.023003
+ 0.65625   0.022341
+ 0.68750   0.021498
+ 0.71875   0.020451
+ 0.75000   0.019163
+ 0.78125   0.017695
+ 0.81250   0.016021
+ 0.84375   0.014063
+ 0.87500   0.011771
+ 0.90625   0.009123
+ 0.93750   0.006132
+ 0.96875   0.002883
+ 1.00000   0.000000
  
 -------------------
 

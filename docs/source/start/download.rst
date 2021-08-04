@@ -13,7 +13,7 @@ Prepare the following Python libraries:
 * `scipy <https://www.scipy.org/>`_ [optional] 
 
 .. Note::
- The **scipy** is only required for obtaining fitting parameters of local strain energy using ``util/extract_strain.py``
+ The **scipy** is only required for obtaining fitting parameters of local strain energy using ``tool/extract_strain.py``
 
 
 
