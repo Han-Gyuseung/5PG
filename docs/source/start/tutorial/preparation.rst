@@ -59,9 +59,9 @@ We provide the fitting tool ``tool/extract_strain.py`` to generate ``BM_constant
 
 :math:`B_0V_0 \ \ \ B'_0 \ \ \ 1 \ \ \ \frac{V_0(x=1)}{V_0(x=0)}`
 
-, where :math:`V_0` and :math:`V` are free relaxed volume and strained volume, :math:`B_0` and :math:`B'_0` are bulk modulus and its derivative.
+, where V\ :sub:`0`\  and V are free relaxed volume and strained volume, B\ :sub:`0`\  and B'\ :sub:`0`\  are bulk modulus and its derivative.
 
-The first and second values are V_0 B_0 and B_0^', respectively. Fourth value over third value should be the :math:`V_0(x=1)` divided by :math:`V_0(x=0)`, which limits V/V0 to be calculated.
+The first and second values are V\ :sub:`0`\  B\ :sub:`0`\  and B'\ :sub:`0`\ , respectively. Fourth value over third value should be the V\ :sub:`0`\ (x=1) divided by V\ :sub:`0`\ (x=0), which limits V/V\ :sub:`0`\  to be calculated.
 
 .. include:: tool.rst
 
@@ -70,7 +70,7 @@ The first and second values are V_0 B_0 and B_0^', respectively. Fourth value ov
  The unit of strain energy must be same to the unit of energy in ``CEL.log``, either eV/[mixing atoms] or J/[mixing atoms].
  
  [mixing atoms] indicates the number of atoms in microstates. 
- For an pseudobinary system of GaAs\ :sub`x`\ Sb\ :sub`1-x`\ as an example, a 2x2x2 zincblende supercell is composed of 32 cations and 32 anions.
+ For an pseudobinary system of GaAs\ :sub:`x`\ Sb\ :sub:`1-x`\ as an example, a 2x2x2 zincblende supercell is composed of 32 cations and 32 anions.
  In this case, the number of mixing atoms is 32.
 
 
