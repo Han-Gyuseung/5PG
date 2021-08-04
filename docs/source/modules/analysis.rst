@@ -1,4 +1,4 @@
-average_property
+analysis
 ================
 
 .. automodule:: analysis
