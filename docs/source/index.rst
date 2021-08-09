@@ -1,12 +1,12 @@
-.. 5PG documentation master file, created by
+.. P5Grand documentation master file, created by
    sphinx-quickstart on Tue Jul  6 11:01:50 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to *5PG* (Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble)!
+Welcome to *P5Grand* (Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble)!
 =========================================
 
-**5PG** (**P**\ ython **P**\ ackage for **P**\ roperty **P**\ rediction of **P**\ seudobinary systems using **G**\ rand canonical ensemble) predicts *thermodynamics properties* (such as average energy (*E*), free energy (*F*), and phase diagram) and ensemble-average properties (such as bandgap and dielectric constant) for pseudobinary systems using grand canonical ensemble.
+**P5Grand** (**P**\ ython **P**\ ackage for **P**\ roperty **P**\ rediction of **P**\ seudobinary systems using **Grand** canonical ensemble) predicts *thermodynamics properties* (such as average energy (*E*), free energy (*F*), and phase diagram) and ensemble-average properties (such as bandgap and dielectric constant) for pseudobinary systems using grand canonical ensemble.
 
 .. .. image:: _static/abstract.png
 
