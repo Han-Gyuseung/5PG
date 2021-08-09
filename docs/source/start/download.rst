@@ -20,11 +20,11 @@ Prepare the following Python libraries:
 Download source code
 --------------------
 
-You can download the latest version in development from `5PG Github page <https://github.com/Han-Gyuseung/5PG>`_ by git clone or from `download link <https://github.com/Han-Gyuseung/5PG/archive/refs/heads/master.zip>`_.
+You can download the latest version in development from `P5Grand Github page <https://github.com/Han-Gyuseung/P5Grand>`_ by git clone or from `download link <https://github.com/Han-Gyuseung/P5Grand/archive/refs/heads/master.zip>`_.
 
 ::
  
- git clone https://github.com/Han-Gyuseung/5PG.git
+ git clone https://github.com/Han-Gyuseung/P5Grand.git
  
 No installation is needed.
 
