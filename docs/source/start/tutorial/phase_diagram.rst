@@ -2,19 +2,19 @@ Phase diagram
 =============
 
 
-5PG can calculate the phase diagram of a pseudobinary system.
+**P5Grand** can calculate the phase diagram of a pseudobinary system.
 
 The basic command to calculate phase diagram is ::
 
- $ python /dir/to/5PG/__main__.py CEL.log -calc p
+ $ python /dir/to/P5Grand/__main__.py CEL.log -calc p
 
 or ::
 
- $ python /dir/to/5PG CEL.log -calc p
+ $ python /dir/to/P5Grand CEL.log -calc p
 
 Because default of ``-calc`` is `p`, `-calc p` is not essential.
 
-We provide example files for testing a command `here <https://github.com/Han-Gyuseung/5PG/tree/main/example/thermodynamic>`_.
+We provide example files for testing a command `here <https://github.com/Han-Gyuseung/P5Grand/tree/main/example/thermodynamic>`_.
 The log messages and phase diagram obtained from the example files is as follows:
 
 ::
@@ -62,7 +62,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p
+ $ python /dir/to/P5Grand CEL.log -calc p
 
 
 ``-strain``
@@ -75,7 +75,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -strain BM_constant.dat
+ $ python /dir/to/P5Grand CEL.log -calc p -strain BM_constant.dat
 
 
 ``-unit``
@@ -88,7 +88,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -unit eV
+ $ python /dir/to/P5Grand CEL.log -calc p -unit eV
 
 
 ``-Tmax``
@@ -99,11 +99,11 @@ options
 | unit : Kelvin
 
 | The highest temperature to be calculated.
-| If phase separation is not found below ``-Tmax``, 5PG stop calculating before reaching ``-Tmax``
+| If phase separation is not found below ``-Tmax``, P5Grand stop calculating before reaching ``-Tmax``
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -Tmax 1000
+ $ python /dir/to/P5Grand CEL.log -calc p -Tmax 1000
 
 
 ``-Tmin``
@@ -118,7 +118,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -Tmin 200
+ $ python /dir/to/P5Grand CEL.log -calc p -Tmin 200
 
 
 ``-dT``
@@ -132,7 +132,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -dT 10
+ $ python /dir/to/P5Grand CEL.log -calc p -dT 10
 
 
 ``-dTmin``
@@ -147,7 +147,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -dTmin 100
+ $ python /dir/to/P5Grand CEL.log -calc p -dTmin 100
 
 
 ``-points``
@@ -160,4 +160,4 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -points 50
+ $ python /dir/to/P5Grand CEL.log -calc p -points 50
