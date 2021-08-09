@@ -8,14 +8,14 @@ Composition and energy
 The grand canonical takes into account the local compositional fluctuation and enables to predict the average value of the “property of interest” (PoI) for any composition and temperature. However, it requires the energy and PoI for all possible composition and configurations, which is impractical.
 
 
-Instead, **5PG** requires the PoI of many (not all, but feasibly large number of) configurations, which are randomly generated at each possible composition.
+Instead, **P5Grand** requires the PoI of many (not all, but feasibly large number of) configurations, which are randomly generated at each possible composition.
 
 The PoI of many configuration can be calculated by diverse ways such as
 
 1. all by DFT calculations
 2. by machine learning based on some DFT data, etc.
 
-No matter what programs are used, the input data of 5PG consists of many rows and two columns,
+No matter what programs are used, the input data of P5Grand consists of many rows and two columns,
 
 ::
 
