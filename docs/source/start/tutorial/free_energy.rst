@@ -1,19 +1,19 @@
 Free energy
 ===========
 
-5PG can calculate the free energy of a system at a given temperature.
+**P5Grand** can calculate the free energy of a system at a given temperature.
 
 The basic command to calculate free energy is ::
 
- $ python /dir/to/5PG/__main__.py CEL.log -calc f
+ $ python /dir/to/P5Grand/__main__.py CEL.log -calc f
 
 or ::
 
- $ python /dir/to/5PG CEL.log -calc f
+ $ python /dir/to/P5Grand CEL.log -calc f
 
 If the name of input file is `CEL.log`, it is not essential to write `CEL.log`
 
-We provide example files for testing a command `here <https://github.com/Han-Gyuseung/5PG/tree/main/example/thermodynamic>`_.
+We provide example files for testing a command `here <https://github.com/Han-Gyuseung/P5Grand/tree/main/example/thermodynamic>`_.
 The log messages obtained from the example files is as follows:
 
 ::
@@ -87,7 +87,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f
+ $ python /dir/to/P5Grand CEL.log -calc f
 
 
 
@@ -101,7 +101,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -strain BM_constant.dat
+ $ python /dir/to/P5Grand CEL.log -calc f -strain BM_constant.dat
 
 
 ``-unit``
@@ -114,7 +114,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -unit eV
+ $ python /dir/to/P5Grand CEL.log -calc f -unit eV
 
 
 ``-T``
@@ -128,7 +128,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -T 500
+ $ python /dir/to/P5Grand CEL.log -calc f -T 500
 
 
 
@@ -142,4 +142,4 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -points 50
+ $ python /dir/to/P5Grand CEL.log -calc f -points 50
