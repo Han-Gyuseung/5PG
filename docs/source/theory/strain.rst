@@ -8,7 +8,7 @@ In this document, the strain indcued by this local compositional fluctuation is 
 ..
  .. include:: strain_code.rst
 
-In **5PG**, the local strain energy is fitted to Birch-Murnaghan equation of state.
+In **P5Grand**, the local strain energy is fitted to Birch-Murnaghan equation of state.
 [Ref]_
 
 Brich-Murnahan equation of state is 

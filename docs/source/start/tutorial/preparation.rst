@@ -8,14 +8,14 @@ Composition and energy
 The grand canonical takes into account the local compositional fluctuation and enables to predict the average value of the “property of interest” (PoI) for any composition and temperature. However, it requires the energy and PoI for all possible composition and configurations, which is impractical.
 
 
-Instead, **5PG** requires the PoI of many (not all, but feasibly large number of) configurations, which are randomly generated at each possible composition.
+Instead, **P5Grand** requires the PoI of many (not all, but feasibly large number of) configurations, which are randomly generated at each possible composition.
 
 The PoI of many configuration can be calculated by diverse ways such as
 
 1. all by DFT calculations
 2. by machine learning based on some DFT data, etc.
 
-No matter what programs are used, the input data of 5PG consists of many rows and two columns,
+No matter what programs are used, the input data of P5Grand consists of many rows and two columns,
 
 ::
 
@@ -45,7 +45,7 @@ The composition of a configuration (the first column) should be within 0~1.
 
 The unit of the energy of a configuration (the second column) can be either eV/[mixing atoms] or J/[mixing atoms].
 
-In this document, the name of input file is referred to as ``CEL.log``, which is the default name of input file to be read in **5PG**.
+In this document, the name of input file is referred to as ``CEL.log``, which is the default name of input file to be read in **P5Grand**.
 
 
 Strain energy
@@ -54,7 +54,7 @@ Strain energy
 The grand canonical requires the strain energy induced by local compositional fluctuation.
 In this document, the strain induced by local compositional fluctuation is referred to as `local strain <../strain.html>`__.
 
-5PG approximates the local strain energy to Birch-Murnaghan equation of state using several parameters. 
+**P5Grand** approximates the local strain energy to Birch-Murnaghan equation of state using several parameters. 
 We provide the fitting tool ``tool/extract_strain.py`` to generate ``BM_constant.dat`` from the OUTCAR of VASP. ``BM_constant.dat`` contains four parameters.
 
 :math:`B_0V_0 \ \ \ B'_0 \ \ \ 1 \ \ \ \frac{V_0(x=1)}{V_0(x=0)}`

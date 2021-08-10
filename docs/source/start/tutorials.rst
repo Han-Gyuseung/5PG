@@ -1,7 +1,7 @@
 Tutorials
 =========
 
-The following tutorials explain the method of **5PG** usage.
+The following tutorials explain the method of **P5Grand** usage.
 
 .. toctree::
     :maxdepth: 3

@@ -1,19 +1,19 @@
 Average property
 ================
 
-5PG can calculate the ensemble average of a system.
+**P5Grand** can calculate the ensemble average of a system.
 
 The basic command to calculate average property is ::
 
- $ python /dir/to/5PG/__main__.py CEL.log -calc a
+ $ python /dir/to/P5Grand/__main__.py CEL.log -calc a
 
 or ::
 
- $ python /dir/to/5PG CEL.log -calc a 
+ $ python /dir/to/P5Grand CEL.log -calc a 
 
 If the name of input file is `CEL.log`, it is not essential to write `CEL.log`
 
-We provide example files for testing a command `here <https://github.com/Han-Gyuseung/5PG/tree/main/example/bandgap-InGaAs>`_.
+We provide example files for testing a command `here <https://github.com/Han-Gyuseung/P5Grand/tree/main/example/bandgap-InGaAs>`_.
 The log messages obtained from the example files is as follows:
 
 
@@ -89,7 +89,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc a
+ $ python /dir/to/P5Grand CEL.log -calc a
 
 
 ``-strain``
@@ -102,7 +102,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc a -strain BM_constant.dat
+ $ python /dir/to/P5Grand CEL.log -calc a -strain BM_constant.dat
 
 ``-unit``
 *********
@@ -114,7 +114,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc a -unit eV
+ $ python /dir/to/P5Grand CEL.log -calc a -unit eV
 
 
 ``-T``
@@ -128,7 +128,7 @@ options
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc a -T 500
+ $ python /dir/to/P5Grand CEL.log -calc a -T 500
 
 
 ``-x``
@@ -141,7 +141,7 @@ Target composition. must be within 0~1.
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc a -x 0.5
+ $ python /dir/to/P5Grand CEL.log -calc a -x 0.5
 
 
 
@@ -156,4 +156,4 @@ Target composition. must be within 0~1.
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc a -points 50
+ $ python /dir/to/P5Grand CEL.log -calc a -points 50

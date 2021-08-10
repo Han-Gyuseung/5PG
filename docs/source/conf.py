@@ -22,7 +22,7 @@ MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot', 'scipy.opti
 
 # -- Project information -----------------------------------------------------
 
-project = '5PG'
+project = 'P5Grand'
 copyright = '2021, Gyuseung Han'
 author = 'Gyuseung Han'
 

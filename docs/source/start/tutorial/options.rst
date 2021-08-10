@@ -11,17 +11,17 @@ options
 ``-h`` ``--help``
 *****************
 
-With ``-h`` or ``--help`` option, you can check options before running 5PG.
+With ``-h`` or ``--help`` option, you can check options before running P5Grand.
 
 :: 
 
- $ python /dir/to/5PG -h
+ $ python /dir/to/P5Grand -h
 
 or
 
 ::
 
- $ python /dir/to/5PG --help
+ $ python /dir/to/P5Grand --help
 
 
 
@@ -72,9 +72,9 @@ or
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f
- $ python /dir/to/5PG CEL.log -calc p
- $ python /dir/to/5PG CEL.log -calc a
+ $ python /dir/to/P5Grand CEL.log -calc f
+ $ python /dir/to/P5Grand CEL.log -calc p
+ $ python /dir/to/P5Grand CEL.log -calc a
 
 
 
@@ -89,9 +89,9 @@ or
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -strain BM_constant.dat
- $ python /dir/to/5PG CEL.log -calc p -strain BM_constant.dat
- $ python /dir/to/5PG CEL.log -calc a -strain BM_constant.dat
+ $ python /dir/to/P5Grand CEL.log -calc f -strain BM_constant.dat
+ $ python /dir/to/P5Grand CEL.log -calc p -strain BM_constant.dat
+ $ python /dir/to/P5Grand CEL.log -calc a -strain BM_constant.dat
 
 
 ``-unit``
@@ -104,9 +104,9 @@ or
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -unit eV
- $ python /dir/to/5PG CEL.log -calc p -unit eV
- $ python /dir/to/5PG CEL.log -calc a -unit eV
+ $ python /dir/to/P5Grand CEL.log -calc f -unit eV
+ $ python /dir/to/P5Grand CEL.log -calc p -unit eV
+ $ python /dir/to/P5Grand CEL.log -calc a -unit eV
 
 
 ``-T``
@@ -121,8 +121,8 @@ or
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -T 500
- $ python /dir/to/5PG CEL.log -calc a -T 500
+ $ python /dir/to/P5Grand CEL.log -calc f -T 500
+ $ python /dir/to/P5Grand CEL.log -calc a -T 500
 
 
 ``-x``
@@ -135,7 +135,7 @@ Target composition. must be within 0~1.
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc a -x 0.5
+ $ python /dir/to/P5Grand CEL.log -calc a -x 0.5
 
 
 
@@ -151,8 +151,8 @@ Target composition. must be within 0~1.
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc f -points 50
- $ python /dir/to/5PG CEL.log -calc a -points 50
+ $ python /dir/to/P5Grand CEL.log -calc f -points 50
+ $ python /dir/to/P5Grand CEL.log -calc a -points 50
 
 
 
@@ -164,11 +164,11 @@ Target composition. must be within 0~1.
 | unit : Kelvin
 
 | The highest temperature to be calculated.
-| If phase separation is not found below ``-Tmax``, 5PG stop calculating before reaching ``-Tmax``
+| If phase separation is not found below ``-Tmax``, **P5Grand** stop calculating before reaching ``-Tmax``
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -Tmax 1000
+ $ python /dir/to/P5Grand CEL.log -calc p -Tmax 1000
 
 
 
@@ -185,7 +185,7 @@ Target composition. must be within 0~1.
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -Tmin 200
+ $ python /dir/to/P5Grand CEL.log -calc p -Tmin 200
 
 
 
@@ -201,7 +201,7 @@ Target composition. must be within 0~1.
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -dT 10
+ $ python /dir/to/P5Grand CEL.log -calc p -dT 10
 
 
 
@@ -218,5 +218,5 @@ Target composition. must be within 0~1.
 
 ::
 
- $ python /dir/to/5PG CEL.log -calc p -dTmin 100
+ $ python /dir/to/P5Grand CEL.log -calc p -dTmin 100
 

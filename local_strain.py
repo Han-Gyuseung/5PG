@@ -10,7 +10,6 @@ def local_strain(strain_parameter,local_x,global_x,N_atom):
     :type  global_x: float 0~1
     :param N_atom: the number of mixing atoms
     :type  N_atom: int
-
     :return: local strain energy [eV/mixing atom] or [J/mixing atom]
     :rypte: float
     '''
@@ -31,7 +30,6 @@ def Birch_Murnaghan(strain_parameter,local_x,global_x,N_atom):
     :type  global_x: float 0~1
     :param N_atom: the number of mixing atoms
     :type  N_atom: int
-
     :return: local strain energy calculated from Birch-Murnaghan equation of state [eV/mixing atom] or [J/mixing atom]
     :rypte: float
     '''
@@ -59,7 +57,6 @@ def Murnaghan(strain_parameter,local_x,global_x,N_atom):
     :type  global_x: float 0~1
     :param N_atom: the number of mixing atoms
     :type  N_atom: int
-
     :return: local strain energy calculated from Birch-Murnaghan equation of state [eV/mixing atom] or [J/mixing atom]
     :rypte: float
     '''
