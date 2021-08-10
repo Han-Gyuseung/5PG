@@ -23,27 +23,27 @@ The first column is composition, and the second column is energy. <br>
 The third column is property. But the third column is optional. <br>
 
 - **strain energy** <br>
-```$ python <P5GrandDirectory>/util/extract_strain.py <species of atom A> <species of atom B>``` <br>
+```$ python /Dir/to/P5Grand/tool/extract_strain.py <species of atom A> <species of atom B>``` <br>
 For example, for GaAs_x Sb_1-x, species of atom A is `As` and species of atom B is ``Sb``
 
 
 ### Process
 - **phase diagram**
 ```
-$ python <P5GrandDirectory> -calc p
+$ python /Dir/to/P5Grand/ -calc p
 ```
 - **free energy**
 ```
-$ python <P5GrandDirectory> -calc f
+$ python /Dir/to/P5Grand/ -calc f
 ```
 - **average property**
 ```
-$ python <P5GrandDirectory> -calc a
+$ python /Dir/to/P5Grand/ -calc a
 ```
 
 In order to see all of the available options and their default values: <br>
 ```
-$ python <P5GrandDirectory> -calc a
+$ python /Dir/to/P5Grand/ -calc a
 ```
 
 <br>
