@@ -10,7 +10,29 @@ or a pseudobinary system
 :math:`A_{x}B_{1-x}C`
 , directories for x=0, x=1, various configurations(0<x<1) are necessary. Also, they must include unstrained & several strained calculation directories. All lowest subdirectories must involve ``OUTCAR``.
 
-You can prepare a directory like following structure.
+For each configuration, directories must be treed as below. 
+
+::
+
+ configuration
+ ├── unstrained
+ │   └── OUTCAR
+ ├── 0_strain
+ │   └── OUTCAR
+ ├── 	.
+ │   	.
+ ├── 	.
+ │   	.
+ └── n_strain
+     └── OUTCAR
+
+.. Note::
+
+ Directory named ``unstrained`` which calculates freely relaxed state is essential.
+ 
+ Other directories involves the calculation results for strained state.
+
+Overall directory tree is follows.
 
 ::
 
@@ -76,10 +98,9 @@ You can prepare a directory like following structure.
      └── unstrained
          └── OUTCAR
 
+.. Note:: Directories for x=0 and x=1 must be included.
 
-
-The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. 
-Enter this command in ``strain`` directory above.
+The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. Enter this command in ``strain`` directory above.
 
 ::
 
