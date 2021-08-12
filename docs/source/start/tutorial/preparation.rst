@@ -63,6 +63,8 @@ As a default, **P5Grand** requires a file which contains four parameters.
 
 The first and second values are V\ :sub:`0`\  B\ :sub:`0`\  and B'\ :sub:`0`\ , respectively. Fourth value over third value should be the V\ :sub:`0`\ (x=1) divided by V\ :sub:`0`\ (x=0), which limits V/V\ :sub:`0`\  to be calculated.
 
+The fitting equations can be manually modified by editing the ``local_strain.py`` module.
+
 .. include:: tool.rst
 
 .. note::
