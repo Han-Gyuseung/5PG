@@ -1,4 +1,4 @@
-Preparation
+Input files
 ===========
 
 Suports calculations
@@ -8,20 +8,21 @@ or a pseudobinary system
 :math:`A_{x}B_{1-x}C`
 , x=0~1. 
 
-Composition and energy
+input file I
 ----------------------
 
-The grand canonical takes into account the local compositional fluctuation and enables to predict the average value of the “property of interest” (PoI) for any composition and temperature. However, it requires the energy and PoI for all possible composition and configurations, which is impractical.
+The grand canonical takes into account the local compositional fluctuation and enables to predict the average value of the “property of interest” (PoI) for any composition and temperature. 
+However, it requires the energy and PoI for all possible compositions and configurations, which is not practically feasible.
 
+Therefore, **P5Grand** requires the PoI of feasibly large number of (not all) configurations, which are randomly generated at each possible composition.
 
-Instead, **P5Grand** requires the PoI of many (not all, but feasibly large number of) configurations, which are randomly generated at each possible composition.
-
-The PoI of many configuration can be calculated by diverse ways such as
+The energy and property of each configuration can be obtained by diverse ways such as:
 
 1. all by DFT calculations
-2. by machine learning based on some DFT data, etc.
+2. by machine learning based on some DFT data
+3. by empirical-based data
 
-No matter what programs are used, the input data of P5Grand consists of many rows and two columns,
+For the free energy mode and the phase diagram mode, it consists of two columns and many rows. Each column presents the composition (x) and the energy (E\ :sub:`σ`\ ) of a certain configuration (σ) while each row corresponds to each configuration.
 
 ::
 
@@ -32,7 +33,7 @@ No matter what programs are used, the input data of P5Grand consists of many row
  0.0625 -8.726524
  ...
 
-or many rows and three columns.
+For the PoI mode, it consists of three columns and many rows. Each column presents x, E\ :sub:`σ`\  and PoI of a certain configuration.
 
 ::
 
@@ -54,7 +55,7 @@ The unit of the energy of a configuration (the second column) can be either eV/[
 In this document, the name of input file is referred to as ``CEL.log``, which is the default name of input file to be read in **P5Grand**.
 
 
-Strain energy
+input file II
 -------------
 
 The grand canonical requires the strain energy induced by local compositional fluctuation.
