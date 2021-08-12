@@ -35,64 +35,64 @@ Overall directory tree is follows.
  strain
  ├── x_equal_0_and_1_must_be_included
  │   ├── 0
- │   │   ├── 0_strain
+ │   │   ├── unstrained
+ │   │   │   └── OUTCAR
+ │   │   ├── 0_strained
  │   │   │   └── OUTCAR
  │   │   ├──     .
  │   │   │       .
  │   │   ├──     .
  │   │   │       .
- │   │   ├── n_strain
- │   │   │   └── OUTCAR
- │   │   └── unstrained 
+ │   │   └── n_strained
  │   │       └── OUTCAR
  │   └── 1
- │       ├── 0_strain
- │       │   └── OUTCAR
+ │       ├── unstrained
+ │       │   └── OUTCAR
+ │       ├── 0_strained
+ │       │   └── OUTCAR
  │       ├──     .
- │       │       .
+ │       │       .
  │       ├──     .
- │       │       .
- │       ├── n_strain
- │       │   └── OUTCAR
- │       └── unstrained
- │           └── OUTCAR 
+ │       │       .
+ │       └── n_strained
+ │           └── OUTCAR
  ├── configuration_1
- │   ├── 0_strain
+ │   ├── unstrained
+ │   │   └── OUTCAR
+ │   ├── 0_strained
  │   │   └── OUTCAR
  │   ├── 	.
  │   │   	.
- │   ├── 	.
- │   │   	.
- │   ├── n_strain
- │   │   └── OUTCAR
- │   └── unstrained
+ │   ├──    .
+ │   │      .
+ │   └── n_strained
  │       └── OUTCAR
  ├── configuration_2
- │   ├── 0_strain
+ │   ├── unstrained
+ │   │   └── OUTCAR
+ │   ├── 0_strained
  │   │   └── OUTCAR
  │   ├── 	.
  │   │   	.
- │   ├── 	.
- │   │   	.
- │   ├── n_strain
- │   │   └── OUTCAR
- │   └── unstrained
+ │   ├──    .
+ │   │      .
+ │   └── n_strained
  │       └── OUTCAR
  ├──         .
  │           .
  ├──         .
  │           .
  └── configuration_n
-     ├── 0_strain
-     │   └── OUTCAR
-     ├── 	.
-     │   	.
-     ├── 	.
-     │   	.
-     ├── n_strain
-     │   └── OUTCAR
-     └── unstrained
-         └── OUTCAR
+     ├── unstrained
+     │   └── OUTCAR
+     ├── 0_strained
+     │   └── OUTCAR
+     ├── 	.
+     │   	.
+     ├──    .
+     │      .
+     └── n_strained
+         └── OUTCAR
 
 .. Note:: Directories for x=0 and x=1 must be included.
 
