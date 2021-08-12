@@ -78,7 +78,8 @@ You can prepare a directory like following structure.
 
 
 
-The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. Enter this command in ``strain`` directory above.
+The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. 
+Enter this command in ``strain`` directory above.
 
 ::
 
