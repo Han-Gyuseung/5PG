@@ -1,5 +1,5 @@
-Free energy
-===========
+Free energy mode
+================
 
 **P5Grand** can calculate the free energy of a system at a given temperature.
 
