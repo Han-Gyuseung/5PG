@@ -9,6 +9,7 @@ For a binary system
 or a pseudobinary system
 :math:`A_{x}B_{1-x}C`
 , directories that include ``OUTCAR`` for x=0, x=1, various configurations are necessary. Also, they must include unstrained & several strained calculation directories.
+
 You can prepare a directory like following structure.
 
 ::
