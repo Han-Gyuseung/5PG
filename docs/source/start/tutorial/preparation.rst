@@ -65,8 +65,6 @@ The first and second values are V\ :sub:`0`\  B\ :sub:`0`\  and B'\ :sub:`0`\ , 
 
 The fitting equations can be manually modified by editing the ``local_strain.py`` module.
 
-.. include:: tool.rst
-
 .. note::
 
  The unit of strain energy must be same to the unit of energy in ``CEL.log``, either eV/[mixing atoms] or J/[mixing atoms].
@@ -75,4 +73,5 @@ The fitting equations can be manually modified by editing the ``local_strain.py`
  For an pseudobinary system of GaAs\ :sub:`x`\ Sb\ :sub:`1-x`\ as an example, a 2x2x2 zincblende supercell is composed of 32 cations and 32 anions.
  In this case, the number of mixing atoms is 32.
 
+.. include:: tool.rst
 
