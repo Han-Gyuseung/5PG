@@ -55,13 +55,15 @@ The grand canonical requires the strain energy induced by local compositional fl
 In this document, the strain induced by local compositional fluctuation is referred to as `local strain <../strain.html>`__.
 
 **P5Grand** approximates the local strain energy to Birch-Murnaghan equation of state using several parameters. 
-We provide the fitting tool ``tool/extract_strain.py`` to generate ``BM_constant.dat`` from the OUTCAR of VASP. ``BM_constant.dat`` contains four parameters.
+As a default, **P5Grand** requires a file which contains four parameters.
 
 :math:`B_0V_0 \ \ \ B'_0 \ \ \ 1 \ \ \ \frac{V_0(x=1)}{V_0(x=0)}`
 
 , where V\ :sub:`0`\  and V are free relaxed volume and strained volume, B\ :sub:`0`\  and B'\ :sub:`0`\  are bulk modulus and its derivative.
 
 The first and second values are V\ :sub:`0`\  B\ :sub:`0`\  and B'\ :sub:`0`\ , respectively. Fourth value over third value should be the V\ :sub:`0`\ (x=1) divided by V\ :sub:`0`\ (x=0), which limits V/V\ :sub:`0`\  to be calculated.
+
+The fitting equations can be manually modified by editing the ``local_strain.py`` module.
 
 .. include:: tool.rst
 
@@ -72,5 +74,3 @@ The first and second values are V\ :sub:`0`\  B\ :sub:`0`\  and B'\ :sub:`0`\ , 
  [mixing atoms] indicates the number of atoms in microstates. 
  For an pseudobinary system of GaAs\ :sub:`x`\ Sb\ :sub:`1-x`\ as an example, a 2x2x2 zincblende supercell is composed of 32 cations and 32 anions.
  In this case, the number of mixing atoms is 32.
-
-
