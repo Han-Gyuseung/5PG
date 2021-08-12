@@ -4,6 +4,8 @@ tool/extract_strain
 **P5Grand** provides ``tool/extract_strain.py`` script to generate a file containing fitting parameters.
 ``tool/extract_strain.py`` script extracts parameters for local strain from the ``OUTCAR`` of **VASP**, and automatically write them in a file named ``BM_constant.dat``.
 
+You need to prepare a directory which involves calculation output file (``OUTCAR``) like following structure.
+
 ::
 
  strain
@@ -52,7 +54,7 @@ tool/extract_strain
      │   │       .
      │   ├──     .
      │   │       .
-     │   ├── _strain
+     │   ├── n_strain
      │   │   └── OUTCAR
      │   └── unstrained
      │       └── OUTCAR
@@ -68,7 +70,7 @@ tool/extract_strain
          └── unstrained
              └── OUTCAR 
 
-The basic command to extract the parameters for local strain from the OUTCAR of **VASP**.
+The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. Run this command in ``strain`` directory above.
 
 ::
 
