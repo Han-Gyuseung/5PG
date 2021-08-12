@@ -6,7 +6,9 @@ for a binary system
 :math:`A_{x}B_{1-x}`
 or a pseudobinary system
 :math:`A_{x}B_{1-x}C`
-, x=0~1. 
+, 
+:math: `x=0~1`
+. 
 
 Composition and energy
 ----------------------
