@@ -70,7 +70,7 @@ You need to prepare a directory which involves calculation output file (``OUTCAR
          └── unstrained
              └── OUTCAR 
 
-The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. Run this command in ``strain`` directory above.
+The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. Enter this command in ``strain`` directory above.
 
 ::
 
