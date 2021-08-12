@@ -1,4 +1,4 @@
-Preparation
+Input files
 ===========
 
 
