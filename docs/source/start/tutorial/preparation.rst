@@ -1,7 +1,7 @@
 Preparation
 ===========
 
-First of all this code suports calculation
+Suports calculation
 for a binary system
 :math:`A_{x}B_{1-x}`
 or a pseudobinary system
