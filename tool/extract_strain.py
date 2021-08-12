@@ -1,5 +1,7 @@
 import os, sys
 from scipy.optimize import curve_fit
+import numpy as np
+import matplotlib.pyplot as plt
 
 #For A(x) B(1-x), each elements are
 A=sys.argv[1]
