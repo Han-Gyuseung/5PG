@@ -17,7 +17,7 @@ You need to prepare a directory which involves calculation output file (``OUTCAR
  │   │   │       .
  │   │   ├──     .
  │   │   │       .
- │   │   ├── _strain
+ │   │   ├── n_strain
  │   │   │   └── OUTCAR
  │   │   └── unstrained 
  │   │       └── OUTCAR
