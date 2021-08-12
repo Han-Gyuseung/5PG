@@ -92,6 +92,7 @@ The materials for example is GaAs\ :sub:`x`\ Sb\ :sub:`1-x`\ . For the test with
 
  $ python /dir/to/P5Grand/tool/extract_strain.py As Sb
  
+ You can get ``BM_constant.dat`` file and fitting graph as follows
 
 .. image:: ../../_static/BM_fitting.png
 
