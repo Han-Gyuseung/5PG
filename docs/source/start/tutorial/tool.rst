@@ -93,6 +93,6 @@ The materials for example is GaAs\ :sub:`x`\ Sb\ :sub:`1-x`\ . For the test with
  $ python /dir/to/P5Grand/tool/extract_strain.py As Sb
  
 
-.. image:: ../../_static/BM fitting.png
+.. image:: ../../_static/BM_fitting.png
 
 The fitting equations can be manually modified by editing the ``tool/extract_strain.py`` script.
