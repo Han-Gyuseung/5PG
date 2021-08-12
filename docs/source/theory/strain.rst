@@ -19,7 +19,7 @@ Brich-Murnahan equation of state is
 
 , where :math:`V_0` and :math:`V` are free relaxed volume and the strained volume of a configuration, :math:`B_0` and :math:`B'_0` are bulk modulus and its derivative.
 
-The governing equation for local strain energy can be changed by editing strain_energy.py.
+The governing equation for local strain energy can be changed by editing ``local_strain`` module.
 
 .. note:: The result of strain_energy.py must be eV/[mixing atoms] or J/[mixing atoms].
 
