@@ -96,7 +96,7 @@ Overall directory tree is follows.
 
 .. Note:: Directories for x=0 and x=1 must be included.
 
-The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. Enter this command in ``strain`` directory above.
+Enter the below command in ``strain`` directory to extract the parameters for local strain from the OUTCAR of **VASP**.
 
 ::
 
