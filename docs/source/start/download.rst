@@ -13,14 +13,15 @@ Prepare the following Python libraries:
 * `scipy <https://www.scipy.org/>`_ [optional] 
 
 .. Note::
- The **scipy** is only required for obtaining fitting parameters of local strain energy using ``tool/extract_strain.py``
+
+ The **scipy** is required only for using ``tool/extract_strain.py`` script.
 
 
 
 Download source code
 --------------------
 
-You can download the latest version in development from `P5Grand Github page <https://github.com/Han-Gyuseung/P5Grand>`_ by git clone or from `download link <https://github.com/Han-Gyuseung/P5Grand/archive/refs/heads/master.zip>`_.
+The latest version can be downloaded at the `P5Grand Github page <https://github.com/Han-Gyuseung/P5Grand>`_ by git clone or from `download link <https://github.com/Han-Gyuseung/P5Grand/archive/refs/heads/master.zip>`_.
 
 ::
  
