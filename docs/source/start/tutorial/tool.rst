@@ -11,13 +11,13 @@ For each configuration, directories must be treed as below.
  configuration
  ├── unstrained
  │   └── OUTCAR
- ├── 0_strain
+ ├── 0_strained
  │   └── OUTCAR
  ├── 	.
  │   	.
  ├── 	.
  │   	.
- └── n_strain
+ └── n_strained
      └── OUTCAR
 
 .. Note::
