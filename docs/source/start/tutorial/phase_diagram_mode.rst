@@ -1,5 +1,5 @@
-Phase diagram
-=============
+Phase diagram mode
+==================
 
 
 **P5Grand** can calculate the phase diagram of a pseudobinary system.
