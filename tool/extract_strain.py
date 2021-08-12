@@ -129,6 +129,16 @@ def searching():
  
  volume_range=V1/V0 # 1 ~ volume_range (can be either >1, <1)
  #lattice=[1,volume_range**(1/3.)]
+ xval = np.linspace(min(Data['r_volume']), max(Data['r_volume']), 1000)
+ plt.plot(Data['r_volume'], Data['dE'], 'ro', label='original data')
+ plt.plot(xval, BM_EOS(xval, popt[0], popt[1]), color='black', label='fitted line')
+ plt.title('Birch-Murnaghan fitting')
+ plt.xlabel('$V/V_0$')
+ plt.ylabel('$E_\sigma^{strain}$ (eV)')
+ plt.legend(loc='best')
+ plt.tight_layout()
+ plt.savefig('BM fitting.png', dpi=300)
+ plt.show()
  
  File=open('BM_constant.dat','w')
  File.write(' '.join(str(i) for i in popt))
