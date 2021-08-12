@@ -6,6 +6,30 @@ tool/extract_strain
 
 You need to prepare a directory which involves calculation output file (``OUTCAR``) like following structure.
 
+For each configuration, directories must be treed as below. 
+
+::
+
+ configuration
+ ├── unstrained
+ │   └── OUTCAR
+ ├── 0_strain
+ │   └── OUTCAR
+ ├── 	.
+ │   	.
+ ├── 	.
+ │   	.
+ └── n_strain
+     └── OUTCAR
+
+.. Note::
+
+ Directory named ``unstrained`` which calculates freely relaxed state is essential.
+ 
+ Other directories involves the calculation results for strained state.
+
+Overall directory tree is follows.
+
 ::
 
  strain
@@ -70,6 +94,7 @@ You need to prepare a directory which involves calculation output file (``OUTCAR
      └── unstrained
          └── OUTCAR
 
+.. Note:: Directories for x=0 and x=1 must be included.
 
 The basic command to extract the parameters for local strain from the OUTCAR of **VASP**. Enter this command in ``strain`` directory above.
 
