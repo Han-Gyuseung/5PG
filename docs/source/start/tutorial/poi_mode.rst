@@ -98,7 +98,7 @@ options
 | -strain `[fileName]`
 | default : BM_constant.dat
 
-| 	The option to select the fitting equation for strain energy.
+| The option to select the fitting equation for strain energy.
 
 ::
 
