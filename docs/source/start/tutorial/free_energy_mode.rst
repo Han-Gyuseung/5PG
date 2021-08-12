@@ -13,7 +13,7 @@ or ::
 
 If the name of input file is `CEL.log`, it is not essential to write `CEL.log`
 
-We provide example files for testing a command `here <https://github.com/Han-Gyuseung/P5Grand/tree/main/example/thermodynamic>`_.
+The example files for testing the command is `here <https://github.com/Han-Gyuseung/P5Grand/tree/main/example/thermodynamic>`_.
 The log messages obtained from the example files is as follows:
 
 ::
