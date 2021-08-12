@@ -4,12 +4,6 @@ tool/extract_strain
 **P5Grand** provides ``tool/extract_strain.py`` script to generate a file containing fitting parameters.
 ``tool/extract_strain.py`` script extracts parameters for local strain from the ``OUTCAR`` of **VASP**, and automatically write them in a file named ``BM_constant.dat``.
 
-For a binary system
-:math:`A_{x}B_{1-x}`
-or a pseudobinary system
-:math:`A_{x}B_{1-x}C`
-, directories for x=0, x=1, various configurations(0<x<1) are necessary. Also, they must include unstrained & several strained calculation directories. All lowest subdirectories must involve ``OUTCAR``.
-
 For each configuration, directories must be treed as below. 
 
 ::
@@ -31,6 +25,8 @@ For each configuration, directories must be treed as below.
  Directory named ``unstrained`` which calculates freely relaxed state is essential.
  
  Other directories involves the calculation results for strained state.
+ 
+ Every lowest subdirectory must involve ``OUTCAR``.
 
 Overall directory tree is follows.
 
