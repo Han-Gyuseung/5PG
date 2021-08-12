@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../../tool'))
 
 import mock
 MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot', 'scipy.optimize']
-autodoc_mock_imports = ['matplotlib']
+autodoc_mock_imports = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot', 'scipy.optimize', 'sys']
 
 
 # -- Project information -----------------------------------------------------
