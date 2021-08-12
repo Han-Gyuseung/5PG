@@ -111,7 +111,63 @@ def searching():
    if info['composition']==0.0 and info['isStrained']==False: V0=info['volume']
    elif info['composition']==1.0 and info['isStrained']==False: V1=info['volume']
  
+ data={} # data[x]={'r_volume': [...], 'dE': [...]}
+ Data={'r_volume':[], 'dE':[], 'composition':[]} # Data={'r_volume': [...], 'dE': [...]}
+ for configDir in configDirList:
+  for info in configDir:
+   if not info['composition'] in data:
+    data[info['composition']]={'r_volume':[], 'dE':[]}
  
+   data[info['composition']]['r_volume'].append(info['r_volume'])
+   data[info['composition']]['dE'].append(info['dE'])
+   Data['r_volume'].append(info['r_volume'])
+   Data['dE'].append(info['dE'])
+   Data['composition'].append(info['composition'])
+ 
+ popt,pcov = curve_fit(BM_EOS, Data['r_volume'],Data['dE']) #popt : a = B0V * N_atom / (N(A)+N(B))  where V is volume per atom.   b=B0'
+ 
+ volume_range=V1/V0 # 1 ~ volume_range (can be either >1, <1)
+ #lattice=[1,volume_range**(1/3.)]
+ 
+ tmp_composition_dict = {}
+ idx = 0
+ 
+ for composition in Data['composition']:
+  if not composition in tmp_composition_dict:
+   tmp_composition_dict[composition] = [idx]
+  else:
+   tmp_composition_dict[composition].append(idx)
+  idx+=1
+ composition_dict = {}
+ 
+ for composition in sorted(tmp_composition_dict.keys()):
+  composition_dict[composition] = tmp_composition_dict[composition]
+ print(composition_dict)
+ xval = np.linspace(min(Data['r_volume']), max(Data['r_volume']), 1000)
+ 
+ for composition in composition_dict:
+  tmp_volume = []
+  tmp_dE = []
+  for idx in composition_dict[composition]:
+   tmp_volume.append(Data['r_volume'][idx])
+   tmp_dE.append(Data['dE'][idx])
+  plt.plot(tmp_volume, tmp_dE, 'o', label='%s'%composition)
+ plt.plot(xval, BM_EOS(xval, popt[0], popt[1]), color='black', label='fitted line')
+ plt.title('Birch-Murnaghan fitting')
+ plt.xlabel('$V/V_0$')
+ plt.ylabel('$E_\sigma^{strain}$ (eV)')
+ plt.legend(loc='best')
+ plt.tight_layout()
+ plt.savefig('BM fitting.png', dpi=300)
+ plt.show()
+ 
+ File=open('BM_constant.dat','w')
+ File.write(' '.join(str(i) for i in popt))
+ File.write(' 1 '+str(volume_range)+'\n')
+ File.close()
+
+if __name__ == '__main__':
+ searching()
  
  data={} # data[x]={'r_volume': [...], 'dE': [...]}
  Data={'r_volume':[], 'dE':[]} # Data={'r_volume': [...], 'dE': [...]}
