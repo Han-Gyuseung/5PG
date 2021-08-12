@@ -1,4 +1,4 @@
-Average property
+PoI mode
 ================
 
 **P5Grand** can calculate the ensemble average of a system.
