@@ -1,5 +1,5 @@
-Phase diagram
-=============
+Phase diagram mode
+==================
 
 
 **P5Grand** can calculate the phase diagram of a pseudobinary system.
@@ -72,7 +72,7 @@ options
 | -strain `[fileName]`
 | default : BM_constant.dat
 
-| The option to select the input file for strain energy.
+| The option to select the fitting equation for strain energy.
 
 ::
 
