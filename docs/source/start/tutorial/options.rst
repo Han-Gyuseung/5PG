@@ -65,10 +65,8 @@ or
 | -calc `f` | `p` | `a`
 | default : `p`
 
-| The option to choose what to be calculated.
-| Use `f` for free energy calculation at a given temperature.
-| Use `p` for phase diagram calculation.
-| Use `a` for average property calculation at a given temperature.
+| The option to choose the calculations modes: 
+| f indicates the free energy mode, p indicates the phase diagram mode, and a indicates the PoI mode, respectively.
 
 ::
 
@@ -85,7 +83,7 @@ or
 | -strain `[fileName]`
 | default : BM_constant.dat
 
-| The option to select the data file for strain energy.
+| The option to select the fitting equation for strain energy
 
 ::
 
