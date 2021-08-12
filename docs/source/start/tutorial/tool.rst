@@ -112,4 +112,4 @@ Then, you can get ``BM_constant.dat`` file and fitting graph as follows.
 
 .. image:: ../../_static/BM_fitting.png
 
-The fitting equations can be manually modified by editing the ``tool/extract_strain.py`` script.
+The fitting equation can be manually modified by editing the ``tool/extract_strain.py`` script, and will be updated to account for the composition-dependent cases.
