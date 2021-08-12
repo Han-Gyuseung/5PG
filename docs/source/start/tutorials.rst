@@ -6,10 +6,10 @@ The following tutorials explain the method of **P5Grand** usage.
 .. toctree::
     :maxdepth: 3
 
-    tutorial/preparation
-    tutorial/free_energy
-    tutorial/phase_diagram
-    tutorial/average_property
+    tutorial/input_files
+    tutorial/free_energy_mode
+    tutorial/phase_diagram_mode
+    tutorial/poi_mode
     tutorial/options
     
 
