@@ -14,5 +14,5 @@ If you have used **P5Grand** to calculate average property, please cite the foll
 
 | "Atomistic prediction on the composition- and configuration- dependent bandgap of Ga(As,Sb) using cluster expansion and ab initio thermodynamics"
 | Gyuseung Han, In Won Yeu, Kun Hee Ye, Cheol Seong Hwang, and Jung-Hae Choi
-| submitted
+| `Mater. Sci. Eng. B 280, 115713 (2022). <https://doi.org/10.1016/j.mseb.2022.115713>`_
 
