@@ -6,11 +6,14 @@ P5Grand
 [[manual]](https://p5grand.readthedocs.io/en/latest/index.html) : https://p5grand.readthedocs.io/en/latest/index.html
 
 **A python tool to calculate the average property using the grand canonical ensemble.** <br>
+If you have used ***P5Grand***, please cite the following article (https://doi.org/10.1016/j.cplett.2022.139887): <br>
+> Gyuseung Han, In Won Yeu, Kun Hee Ye, Seungjae Yoon, Taeyoung Jeong, Seung-Cheol Lee, Cheol Seong Hwang, and Jung-Hae Choi, "Temperature-dependent bandgap of (In,Ga)As via P5Grand: a Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble,” Chem. Phys. Lett. 804, 139887 (2022)
+
 If you have used ***P5Grand*** to obtain **phase diagram**, please cite the following article (https://doi.org/10.1088/1361-6463/abbf78): <br>
 > Gyuseung Han, In Won Yeu, Jaehong Park, Kun Hee Ye, Seung-Cheol Lee, Cheol Seong Hwang, and Jung-Hae Choi, "Effect of local strain energy to predict accurate phase diagram of III-V pseudobinary systems: case of Ga(As,Sb) and (In,Ga)As," J. Phys. D: Appl. Phys. 54, 045104 (2021)
 
-If you have used ***P5Grand*** to obtain **average property**, please cite the following article (https://doi.org/10.1016/j.cplett.2022.139887): <br>
-> Gyuseung Han, In Won Yeu, Kun Hee Ye, Seungjae Yoon, Taeyoung Jeong, Seung-Cheol Lee, Cheol Seong Hwang, and Jung-Hae Choi, "Temperature-dependent bandgap of (In,Ga)As via P5Grand: a Python Package for Property Prediction of Pseudobinary systems using Grand canonical ensemble,” Chem. Phys. Lett. 804, 139887 (2022)
+If you have used ***P5Grand*** to obtain **average property**, please cite the following article (https://doi.org/10.1016/j.mseb.2022.115713): <br>
+> Gyuseung Han, In Won Yeu, Kun Hee Ye, Cheol Seong Hwang, and Jung-Hae Choi, "Atomistic prediction on the composition- and configuration- dependent bandgap of Ga(As,Sb) using cluster expansion and ab initio thermodynamics," Mater. Sci. Eng. B 280, 115713 (2022)
 
 <br>
 
